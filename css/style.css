@@ -25,7 +25,7 @@ body {
     background: var(--back);
 }
 
-/*----  HOME ---- */
+/*----  INICIO ---- */
 
 /* HEADER */
 
@@ -60,56 +60,77 @@ body {
     font-size: 1.2rem;
 }
 
+/* -- dropdown_menu -- */
+.dropdown_menu {
+    position: absolute;
+    top: 93px;
+    right: 0;
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
+
+    display: none;
+}
+
+.open {
+    display: flex;
+}
+
+.dropdown_menu a {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
 /* MAIN */
 
-.home {
+.inicio {
     background: url('../img/background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 600px;
 }
 
-.container-home {
+.container-inicio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 500px;
-
+    height: 600px;
     padding: 2rem 4rem;
 }
 
 /* text content */
 
-.container-home .content-text h3 {
+.container-inicio .content-text h3 {
     font-size: 1.4rem;
     font-weight: 600;
     text-transform: capitalize;
-
     padding-bottom: 5px;
 }
 
-.container-home .content-text h2 {
+.container-inicio .content-text h2 {
     font-size: 2.7rem;
     font-weight: 800;
     text-transform: uppercase;
-
+    text-align: center;
     padding-bottom: 5px;
 }
 
-.container-home .content-text p {
+.container-inicio .content-text p {
     font-size: 1rem;
-
     padding-bottom: 25px;
 }
 
-.container-home .content-text a {
+.container-inicio .content-text a {
     font-size: 1.4rem;
     font-weight: 800;
     text-transform: uppercase;
     background-color: var(--yellow);
     border-radius: 15px;
-
-    padding: 16px 60px 10px 60px;
+    padding: 16px 45px 10px 45px;
 }
