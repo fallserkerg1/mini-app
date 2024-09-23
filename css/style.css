@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    color: var(--white);
+    text-decoration: none;
+}
+
+:root {
+    --back : #040036;
+    --blue-shadow : #05000f;
+    --blue-light : #023bf7;
+    --white : #fff;
+    --black : #000;
+
+    --yellow: #fae100;
+    --dark-yellow: #998a00;
+}
+
+body {
+    width: 100%;
+    background: var(--back);
+}
+
+/*----  HOME ---- */
+
+/* HEADER */
+
+.header {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+}
+
+.header .logo {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.header .logo span {
+    color: var(--blue-light);
+}
+
+.header .menu {
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+}
+
+.header .toggle_btn {
+    display: none;
+    font-size: 1.2rem;
+}
+
+/* MAIN */
+
+.home {
+    background: url('../img/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+
+    padding: 2rem 4rem;
+}
+
+/* text content */
+
+.container-home .content-text h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+    padding-bottom: 5px;
+}
+
+.container-home .content-text h2 {
+    font-size: 2.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    padding-bottom: 5px;
+}
+
+.container-home .content-text p {
+    font-size: 1rem;
+
+    padding-bottom: 25px;
+}
+
+.container-home .content-text a {
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: var(--yellow);
+    border-radius: 15px;
+
+    padding: 16px 60px 10px 60px;
+}

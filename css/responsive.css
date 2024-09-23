@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+
+    .header .menu {
+        display: none;
+    }
+
+    .header .toggle_btn {
+        display: block;
+    }
+}
