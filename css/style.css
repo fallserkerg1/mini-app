@@ -134,3 +134,56 @@ body {
     border-radius: 15px;
     padding: 16px 45px 10px 45px;
 }
+
+/*----  PERSONAJES ---- */
+
+.personajes {
+    background: var(--back);
+    height: 900px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.personajes .container-text {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 3rem 0;
+}
+
+.personajes .container-text .title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.personajes .container-personajes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    height: 600px;
+    padding: 1.5rem;
+}
+
+
+.container-personajes .item {
+    background: url('../img/character-01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+    padding: 2rem;
+    border-radius: 35px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
+
+

@@ -7,4 +7,9 @@
     .header .toggle_btn {
         display: block;
     }
+
+    .personajes .container-personajes {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
