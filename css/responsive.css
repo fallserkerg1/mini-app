@@ -8,7 +8,23 @@
         display: block;
     }
 
-    .personajes .container-personajes {
+    .characters {
+        background: var(--black);
+        height: 370vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ships {
+        height: 300vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .characters .container-characters,
+    .ships .container-ships {
         display: flex;
         flex-wrap: wrap;
     }
