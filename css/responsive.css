@@ -10,14 +10,14 @@
 
     .characters {
         background: var(--black);
-        height: 390vh;
+        height: 260vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     .ships {
-        height: 320vh;
+        height: 210vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
