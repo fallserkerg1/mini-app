@@ -9,18 +9,19 @@
     }
 
     .characters {
-        background: var(--black);
-        height: 260vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: auto;
+        margin: auto;
     }
 
     .ships {
-        height: 210vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: auto;
+        margin: auto;
     }
 
     .characters .container-characters,

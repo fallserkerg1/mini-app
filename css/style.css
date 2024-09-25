@@ -161,12 +161,14 @@ body {
 /*----  CHARACTERS ---- */
 
 .characters {
-    background: var(--black);
-    height: 900px;
+    background: url('../img/stars.jpg');
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 2rem 0;
 }
 
 .characters .container-text {
@@ -292,7 +294,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: auto;
+
+    padding: 2rem 0;
 }
 
 .ships .title {
